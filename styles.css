@@ -1,1 +1,124 @@
 /* your code here */
+        *{
+            margin:0px;
+            padding:0px;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: #10E37F;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100vw;
+            height: 100vh;
+        }
+        .product{
+             display: flex;
+            width: 50%;
+            height: 70%;
+            background-color: #ffffff;
+            justify-content: center;
+            position: relative;
+            margin: auto;
+        }
+        .product__photo{
+            display: flex;
+            flex-direction: column;
+            width:50%;
+            height:80%;
+            position: absolute;
+            background-color: #ffffff;
+            top:10%;
+            left: -10%;
+            border-radius: 10px;
+        }
+         .photo-container{
+            display: flex;
+            height:100%;
+            flex-direction: column;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        .photo-main{
+            display: flex;
+            width:100%;
+            height: 100%;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            background-color: #B6E941;
+            position: relative;
+        }
+        .photo-main img{
+            height:100%;
+            width:100%;
+           border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            position: absolute;
+            left:-20%;
+        }
+        .photo-album{
+            width: 100%;
+            height: 20%;
+            display: flex;
+            align-items: center;
+        }
+        .photo-album ul{
+            display: flex;
+            list-style: none;
+            justify-content: center;
+            width: 90%;
+            margin: auto;
+            gap: 10px;
+            
+        }
+        .photo-album ul li{
+            width:18%;
+            border: 1px solid gray;
+           
+        }
+        .photo-album ul li img{
+            width:80%;
+        }
+         .product__info{
+           display: flex;
+           flex-direction: column;
+           position: absolute;
+           top: 10%;
+           right: 15%;
+           height: 80%;
+           justify-content: space-between;
+        }
+
+        .title span{
+             color: gray;
+             font-size: small;
+        }
+        .price{
+            color: red;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        .price span{
+            font-size: 40px;
+        }
+        .variant h3{
+            color:gray;
+        }
+        .variant ul{
+            display: flex;
+        }
+        .variant ul li{
+            list-style: none;
+        }
+         .desrciption{
+            display: flex;
+            flex-direction: c;
+        }
+        button{
+            display: flex;
+            padding: 10px;
+            border-radius: 10px;
+            background-color: red;
+            color:#ffffff;
+            width: 50%;
+        }
